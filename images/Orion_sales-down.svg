@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" aria-labelledby="title"
+aria-describedby="desc" role="img" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <title>Sales Down</title>
+  <desc>A flat styled icon from Orion Icon Library.</desc>
+  <path data-name="layer6"
+  fill="#7c97c5" d="M6.998 19.992h8v40.016h-8z"></path>
+  <path data-name="layer5" fill="#a2b8df" d="M34.998 34.008h8v26h-8z"></path>
+  <path data-name="layer4" fill="#d2ddf0" d="M48.998 48.008h8v12h-8z"></path>
+  <path data-name="layer3" fill="#afc1db" d="M20.998 40.022h8v19.987h-8z"></path>
+  <path data-name="layer2" d="M56.83 31.514a1.042 1.042 0 0 0 .1-.172.983.983 0 0 0 .041-.2.962.962 0 0 0 .029-.151v-8a1 1 0 0 0-2 0v5.771L38.665 14.243a1 1 0 0 0-1.112-.147L26.2 19.774 8.711 2.285A1 1 0 1 0 7.3 3.7l18 18a1 1 0 0 0 1.154.188l11.395-5.7 15.528 13.8H48a1 1 0 0 0 0 2h8a1 1 0 0 0 .392-.082 1.04 1.04 0 0 0 .1-.065.973.973 0 0 0 .218-.145c.007-.007.01-.018.017-.025s.017-.009.024-.017a.961.961 0 0 0 .079-.14z"
+  fill="#f27e7c"></path>
+  <path data-name="layer1" d="M59 61.009H4a1 1 0 1 1 0-2h55a1 1 0 0 1 0 2z"
+  fill="#7b8baf"></path>
+</svg>
