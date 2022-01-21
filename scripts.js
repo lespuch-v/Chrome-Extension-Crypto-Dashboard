@@ -105,7 +105,7 @@ async function getCoffeeImage(){
 
 getCryptoBTC(arrCrypto[0])
 setInterval(currentTime, 1000)
-setInterval(getQuote, 1000)
+setInterval(getQuote, 5000)
 
 // Getting random picture API CALLING
 document.body.style.backgroundImage = "url('https://source.unsplash.com/1600x900/?nature')"
