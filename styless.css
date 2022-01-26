@@ -4,7 +4,6 @@ body{
     overflow: hidden; 
     background-position: center;
     background-size: cover;
-    opacity:0.8;
     font-family: 'Poppins', sans-serif;
 }
 .main-section-center{
@@ -154,7 +153,6 @@ a:hover{
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    opacity: 1;
 }
 h1{
     margin-bottom: 0;

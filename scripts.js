@@ -2,9 +2,6 @@ import * as qdata from "./quotes.js"
 
 
 let myQuoteData = qdata.default
-console.log(myQuoteData[1])
-console.log(myQuoteData)
-
 
 const cryptoButtons = document.querySelectorAll(".btn-c")
 const cryptoValues = document.querySelector(".cryptoSection")
@@ -51,7 +48,6 @@ async function getCryptoBTC(crypto) {
         <h3 class="cryptoValues low">Low 24: ${new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 }).format(data.market_data.low_24h["usd"])} <i class="fas fa-dollar-sign"></i> <img class="imgLogo" src="images/trend-down.png" alt=""></h3>
     </div>
     `
-    console.log(data)
 
 }
 
@@ -61,9 +57,6 @@ const currentTime = () => {
     let hours  = today.getHours()
     let minutes = today.getMinutes()
     let seconds = today.getSeconds()
-    // console.log(hours)
-    console.log(minutes)
-    // console.log(seconds)
 
     //seconds
         curTime.innerHTML = 
@@ -76,8 +69,6 @@ const currentTime = () => {
 function getQuote(){
     let randomNumber = (Math.floor(Math.random() * myQuoteData.length)) 
     let randomNumber2 = (Math.floor(Math.random() * myQuoteData.length)) 
-    console.log(randomNumber)
-    console.log(myQuoteData[randomNumber])
     quote.innerHTML = `<h1 class="quoteStyling">${randomNumber != randomNumber2 ? myQuoteData[randomNumber] : myQuoteData[randomNumber - 1]}</h1>`
 }
 
@@ -85,7 +76,6 @@ function getQuote(){
 
 async function getCoffeeImage(){
     // Open and Close MODAL
-    console.log("Coffee Button Clicked!")
     if(coffeeModal.style.display === "block"){
         coffeeModal.style.display = "none"
     }else{
@@ -94,7 +84,6 @@ async function getCoffeeImage(){
             .then(response => response.json())
             .then(data => {
             coffeeModal.style.backgroundImage = `url(${data.url})`
-            console.log(data.url)
         })
     }
 
@@ -109,6 +98,6 @@ setInterval(getQuote, 5000)
 
 // Getting random picture API CALLING
 document.body.style.backgroundImage = "url('https://source.unsplash.com/1600x900/?nature')"
-console.log(document.body.style.backgroundImage)
+
 
 
